@@ -16,7 +16,7 @@ $ go run main.go -url https://www.example.com
 {"url":"https://www.example.com","strategy":"DESKTOP","score":1,"date":"2023-04-01T01:01:01.352859963+02:00"}
 
 # run with mobile strategy
-$ go run main.go -url https://www.example.com -sttrategy mobile
+$ go run main.go -url https://www.example.com -strategy mobile
 
 # build binary in ./build directory
 $ make build
